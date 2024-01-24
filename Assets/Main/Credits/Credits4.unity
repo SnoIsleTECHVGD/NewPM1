@@ -214,6 +214,7 @@ GameObject:
   - component: {fileID: 461999282}
   - component: {fileID: 461999281}
   - component: {fileID: 461999280}
+  - component: {fileID: 461999284}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -303,6 +304,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &461999284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461999279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f995db508aa916e4fb8a82fb0ce2005f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &543409786
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,7 +481,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 594369476}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 461999284}
+        m_TargetAssemblyTypeName: CreditsSceneLoad, Assembly-CSharp
+        m_MethodName: Credits4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &594369476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -564,7 +589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4b9890a6aa1996d47bb57738c9c06fc0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

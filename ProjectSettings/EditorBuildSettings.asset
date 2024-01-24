@@ -17,4 +17,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Main/MainDeathScreen.unity
     guid: 4482bd6693fca244e9b815a70e2d0e17
+  - enabled: 1
+    path: Assets/Main/Credits/Credits1.unity
+    guid: 5a5f8c07b702d0d4a836af672d4b26e5
+  - enabled: 1
+    path: Assets/Main/Credits/Credits2.unity
+    guid: c5847534df58b96428577fb0a4e22330
+  - enabled: 1
+    path: Assets/Main/Credits/Credits3.unity
+    guid: 8bb8ebcce9ce09744b9a27e2080cddc7
+  - enabled: 1
+    path: Assets/Main/Credits/Credits4.unity
+    guid: 9b4a91fbad73f18478b050514d48c6ce
+  - enabled: 1
+    path: Assets/Main/Credits/Credits5.unity
+    guid: 5ed757dec39f1b940bb714f6c7763547
+  - enabled: 1
+    path: Assets/Main/Credits/Credits6.unity
+    guid: 2aba84d2c984f8b4cbe9b88bc3ae4415
   m_configObjects: {}
